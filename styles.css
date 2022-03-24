@@ -1,0 +1,37 @@
+
+.loginBtn:hover{
+    -fx-background-color: #a69eea;
+    -fx-text-fill: #3821ef;
+}
+
+.menuBtn{
+    -fx-background-color: #6c5ce7;
+}
+
+.menuBtn:hover{
+    -fx-background-color: #8071ed;
+}
+
+.ticketBtn{
+    -fx-background-color: #6c5ce7;
+}
+
+.ticketBtn:hover{
+    -fx-background-color: #503edd;
+}
+
+.deleteBtn{
+    -fx-background-color: #6c5ce7;
+}
+
+.deleteBtn:hover{
+    -fx-background-color: #8071ed;
+}
+
+.text-area {
+    text-area-background: white ;
+}
+
+.text-area .content {
+    -fx-background-color: text-area-background ;
+}

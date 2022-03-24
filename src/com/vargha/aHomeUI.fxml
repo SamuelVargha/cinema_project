@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import com.jfoenix.controls.JFXButton?>
+<?import com.jfoenix.controls.JFXTextArea?>
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.BorderPane?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.shape.Line?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<BorderPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="650.0" prefWidth="1100.0" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.vargha.AHomeController">
+    <left>
+        <VBox alignment="TOP_CENTER" prefHeight="650.0" prefWidth="280.0" style="-fx-background-color: #6c5ce7;" BorderPane.alignment="CENTER">
+                <Text fill="WHITE" strokeType="OUTSIDE" strokeWidth="0.0" text="CinemaProject">
+                    <VBox.margin>
+                        <Insets top="20.0" />
+                    </VBox.margin>
+                    <font>
+                        <Font name="System Bold" size="20.0" />
+                    </font>
+                </Text>
+                <Line endX="100.0" fill="WHITE" startX="-100.0" stroke="WHITE" strokeWidth="2.0">
+                    <VBox.margin>
+                        <Insets top="5.0" />
+                    </VBox.margin>
+                </Line>
+                <JFXButton prefHeight="50.0" prefWidth="220.0" ripplerFill="WHITE" styleClass="menuBtn" stylesheets="file:styles.css" text="HOME" textFill="WHITE">
+                    <VBox.margin>
+                        <Insets top="80.0" />
+                    </VBox.margin>
+                    <font>
+                        <Font name="System Bold" size="18.0" />
+                    </font>
+                </JFXButton>
+                <JFXButton fx:id="moviesBut" onAction="#selMovies" prefHeight="50.0" prefWidth="220.0" ripplerFill="WHITE" styleClass="menuBtn" stylesheets="file:styles.css" text="MOVIES" textFill="WHITE">
+                    <VBox.margin>
+                        <Insets top="20.0" />
+                    </VBox.margin>
+                    <font>
+                        <Font name="System Bold" size="18.0" />
+                    </font>
+                </JFXButton>
+                <JFXButton onAction="#selShowings" prefHeight="50.0" prefWidth="220.0" ripplerFill="WHITE" styleClass="menuBtn" stylesheets="file:styles.css" text="SHOWINGS" textFill="WHITE">
+                    <VBox.margin>
+                        <Insets top="20.0" />
+                    </VBox.margin>
+                    <font>
+                        <Font name="System Bold" size="18.0" />
+                    </font>
+                </JFXButton>
+                <JFXButton fx:id="ordersBut" onAction="#selOrders" prefHeight="50.0" prefWidth="220.0" ripplerFill="WHITE" styleClass="menuBtn" stylesheets="file:styles.css" text="ORDERS" textFill="WHITE">
+                    <font>
+                        <Font name="System Bold" size="18.0" />
+                    </font>
+                    <VBox.margin>
+                        <Insets top="20.0" />
+                    </VBox.margin>
+                </JFXButton>
+                <JFXButton fx:id="backBut" onAction="#selBack" prefHeight="50.0" prefWidth="220.0" ripplerFill="WHITE" styleClass="menuBtn" stylesheets="file:styles.css" text="GO BACK" textFill="WHITE">
+                    <font>
+                        <Font name="System Bold" size="18.0" />
+                    </font>
+                    <VBox.margin>
+                        <Insets top="20.0" />
+                    </VBox.margin>
+                </JFXButton>
+        </VBox>
+    </left>
+    <center>
+        <AnchorPane prefHeight="650.0" prefWidth="1104.0" BorderPane.alignment="CENTER">
+                <JFXButton fx:id="bigButton" ellipsisString="" layoutX="74.0" layoutY="73.0" onAction="#reserve" prefHeight="504.0" prefWidth="336.0" textAlignment="CENTER" AnchorPane.bottomAnchor="73.0" AnchorPane.leftAnchor="73.0" AnchorPane.topAnchor="73.0" />
+                <JFXButton fx:id="reserveButton" buttonType="RAISED" layoutX="576.0" layoutY="583.0" onAction="#reserve" prefHeight="44.0" prefWidth="214.0" styleClass="ticketBtn" stylesheets="file:styles.css" text="RESERVE SEATS NOW" textFill="WHITE" AnchorPane.bottomAnchor="30.0" AnchorPane.rightAnchor="30.0">
+                    <font>
+                        <Font name="System Bold" size="18.0" />
+                    </font>
+                </JFXButton>
+                <Text fx:id="nameText" fill="#6c5ce7" layoutX="430.0" layoutY="128.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Iron Man 2" wrappingWidth="372.13671875" AnchorPane.topAnchor="83.0">
+                    <font>
+                        <Font name="System Bold" size="41.0" />
+                    </font>
+                </Text>
+                <JFXTextArea fx:id="dateArea" editable="false" focusColor="#405aa800" layoutX="430.0" layoutY="409.0" opacity="0.6" prefHeight="149.0" prefWidth="356.0" unFocusColor="#4d4d4d00" AnchorPane.leftAnchor="450.0">
+                    <font>
+                        <Font name="System Bold" size="20.0" />
+                    </font>
+                </JFXTextArea>
+                <JFXTextArea fx:id="descArea" editable="false" focusColor="#405aa800" layoutX="430.0" layoutY="213.0" prefHeight="179.0" prefWidth="356.0" unFocusColor="#4d4d4d00" AnchorPane.leftAnchor="450.0">
+                    <font>
+                        <Font name="System Italic" size="15.0" />
+                    </font>
+                </JFXTextArea>
+        </AnchorPane>
+    </center>
+</BorderPane>

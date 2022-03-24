@@ -1,0 +1,10 @@
+<component name="ArtifactManager">
+  <artifact type="jar" name="CinemaProject:jar">
+    <output-path>$PROJECT_DIR$/out/artifacts/CinemaProject_jar</output-path>
+    <root id="archive" name="CinemaProject.jar">
+      <element id="module-output" name="CinemaProject" />
+      <element id="extracted-dir" path="$PROJECT_DIR$/../../Java Stuff/jfoenix-1.8.0.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$PROJECT_DIR$/../../Java Stuff/sqlite-jdbc-3.27.2.1.jar" path-in-jar="/" />
+    </root>
+  </artifact>
+</component>

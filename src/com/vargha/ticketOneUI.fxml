@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import com.jfoenix.controls.JFXButton?>
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane prefHeight="550.0" prefWidth="760.0" xmlns="http://javafx.com/javafx/8.0.171"
+            xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.vargha.TicketControllerOne">
+
+      <VBox alignment="CENTER" layoutX="-6.0" layoutY="-41.0" prefHeight="62.0" prefWidth="760.0" style="-fx-background-color: #6c5ce7;" AnchorPane.bottomAnchor="494.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+            <Text fill="WHITE" strokeType="OUTSIDE" strokeWidth="0.0" text="CHOOSE YOUR SEATS" wrappingWidth="327.515625">
+               <font>
+                  <Font name="System Bold" size="32.0" />
+               </font>
+            </Text>
+      </VBox>
+      <VBox layoutX="31.0" layoutY="173.0" prefHeight="232.0" prefWidth="481.0" spacing="5.0" AnchorPane.leftAnchor="31.0">
+            <HBox alignment="CENTER_LEFT" prefHeight="100.0" prefWidth="200.0" spacing="8.0">
+                  <JFXButton fx:id="a0" maxHeight="40.0" maxWidth="40.0" minHeight="40.0" minWidth="40.0" prefHeight="40.0" prefWidth="40.0" />
+                  <JFXButton fx:id="a1" maxHeight="40.0" maxWidth="40.0" minHeight="40.0" minWidth="40.0" prefHeight="40.0" prefWidth="40.0" />
+                  <JFXButton fx:id="a2" maxHeight="40.0" maxWidth="40.0" minHeight="40.0" minWidth="40.0" prefHeight="40.0" prefWidth="40.0" />
+                  <JFXButton fx:id="a3" maxHeight="40.0" maxWidth="40.0" minHeight="40.0" minWidth="40.0" prefHeight="40.0" prefWidth="40.0" />
+                  <JFXButton fx:id="a4" maxHeight="40.0" maxWidth="40.0" minHeight="40.0" minWidth="40.0" prefHeight="40.0" prefWidth="40.0" />
+                  <JFXButton fx:id="a5" maxHeight="40.0" maxWidth="40.0" minHeight="40.0" minWidth="40.0" prefHeight="40.0" prefWidth="40.0" />
+                  <JFXButton fx:id="a6" maxHeight="40.0" maxWidth="40.0" minHeight="40.0" minWidth="40.0" prefHeight="40.0" prefWidth="40.0" />
+                  <JFXButton fx:id="a7" maxHeight="40.0" maxWidth="40.0" minHeight="40.0" minWidth="40.0" prefHeight="40.0" prefWidth="40.0" />
+                  <JFXButton fx:id="a8" maxHeight="40.0" maxWidth="40.0" minHeight="40.0" minWidth="40.0" prefHeight="40.0" prefWidth="40.0" />
+                  <JFXButton fx:id="a9" maxHeight="40.0" maxWidth="40.0" minHeight="40.0" minWidth="40.0" prefHeight="40.0" prefWidth="40.0" />
+               <padding>
+                  <Insets left="5.0" right="5.0" />
+               </padding>
+            </HBox>
+            <HBox alignment="CENTER_LEFT" prefHeight="100.0" prefWidth="200.0" spacing="8.0">
+               <padding>
+                  <Insets left="5.0" right="5.0" />
+               </padding>
+                  <JFXButton fx:id="b0" maxHeight="40.0" maxWidth="40.0" minHeight="40.0" minWidth="40.0" prefHeight="40.0" prefWidth="40.0" />
+                  <JFXButton fx:id="b1" maxHeight="40.0" maxWidth="40.0" minHeight="40.0" minWidth="40.0" prefHeight="40.0" prefWidth="40.0" />
+                  <JFXButton fx:id="b2" maxHeight="40.0" maxWidth="40.0" minHeight="40.0" minWidth="40.0" prefHeight="40.0" prefWidth="40.0" />
+                  <JFXButton fx:id="b3" maxHeight="40.0" maxWidth="40.0" minHeight="40.0" minWidth="40.0" prefHeight="40.0" prefWidth="40.0" />
+                  <JFXButton fx:id="b4" maxHeight="40.0" maxWidth="40.0" minHeight="40.0" minWidth="40.0" prefHeight="40.0" prefWidth="40.0" />
+                  <JFXButton fx:id="b5" maxHeight="40.0" maxWidth="40.0" minHeight="40.0" minWidth="40.0" prefHeight="40.0" prefWidth="40.0" />
+                  <JFXButton fx:id="b6" maxHeight="40.0" maxWidth="40.0" minHeight="40.0" minWidth="40.0" prefHeight="40.0" prefWidth="40.0" />
+                  <JFXButton fx:id="b7" maxHeight="40.0" maxWidth="40.0" minHeight="40.0" minWidth="40.0" prefHeight="40.0" prefWidth="40.0" />
+                  <JFXButton fx:id="b8" maxHeight="40.0" maxWidth="40.0" minHeight="40.0" minWidth="40.0" prefHeight="40.0" prefWidth="40.0" />
+                  <JFXButton fx:id="b9" maxHeight="40.0" maxWidth="40.0" minHeight="40.0" minWidth="40.0" prefHeight="40.0" prefWidth="40.0" />
+            </HBox>
+            <HBox alignment="CENTER_LEFT" prefHeight="100.0" prefWidth="200.0" spacing="8.0">
+               <padding>
+                  <Insets left="5.0" right="5.0" />
+               </padding>
+                  <JFXButton fx:id="c0" maxHeight="40.0" maxWidth="40.0" minHeight="40.0" minWidth="40.0" prefHeight="40.0" prefWidth="40.0" />
+                  <JFXButton fx:id="c1" maxHeight="40.0" maxWidth="40.0" minHeight="40.0" minWidth="40.0" prefHeight="40.0" prefWidth="40.0" />
+                  <JFXButton fx:id="c2" maxHeight="40.0" maxWidth="40.0" minHeight="40.0" minWidth="40.0" prefHeight="40.0" prefWidth="40.0" />
+                  <JFXButton fx:id="c3" maxHeight="40.0" maxWidth="40.0" minHeight="40.0" minWidth="40.0" prefHeight="40.0" prefWidth="40.0" />
+                  <JFXButton fx:id="c4" maxHeight="40.0" maxWidth="40.0" minHeight="40.0" minWidth="40.0" prefHeight="40.0" prefWidth="40.0" />
+                  <JFXButton fx:id="c5" maxHeight="40.0" maxWidth="40.0" minHeight="40.0" minWidth="40.0" prefHeight="40.0" prefWidth="40.0" />
+                  <JFXButton fx:id="c6" maxHeight="40.0" maxWidth="40.0" minHeight="40.0" minWidth="40.0" prefHeight="40.0" prefWidth="40.0" />
+                  <JFXButton fx:id="c7" maxHeight="40.0" maxWidth="40.0" minHeight="40.0" minWidth="40.0" prefHeight="40.0" prefWidth="40.0" />
+                  <JFXButton fx:id="c8" maxHeight="40.0" maxWidth="40.0" minHeight="40.0" minWidth="40.0" prefHeight="40.0" prefWidth="40.0" />
+                  <JFXButton fx:id="c9" maxHeight="40.0" maxWidth="40.0" minHeight="40.0" minWidth="40.0" prefHeight="40.0" prefWidth="40.0" />
+            </HBox>
+            <HBox alignment="CENTER_LEFT" prefHeight="100.0" prefWidth="200.0" spacing="8.0">
+               <padding>
+                  <Insets left="5.0" right="5.0" />
+               </padding>
+                  <JFXButton fx:id="d0" maxHeight="40.0" maxWidth="40.0" minHeight="40.0" minWidth="40.0" prefHeight="40.0" prefWidth="40.0" />
+                  <JFXButton fx:id="d1" maxHeight="40.0" maxWidth="40.0" minHeight="40.0" minWidth="40.0" prefHeight="40.0" prefWidth="40.0" />
+                  <JFXButton fx:id="d2" maxHeight="40.0" maxWidth="40.0" minHeight="40.0" minWidth="40.0" prefHeight="40.0" prefWidth="40.0" />
+                  <JFXButton fx:id="d3" maxHeight="40.0" maxWidth="40.0" minHeight="40.0" minWidth="40.0" prefHeight="40.0" prefWidth="40.0" />
+                  <JFXButton fx:id="d4" maxHeight="40.0" maxWidth="40.0" minHeight="40.0" minWidth="40.0" prefHeight="40.0" prefWidth="40.0" />
+                  <JFXButton fx:id="d5" maxHeight="40.0" maxWidth="40.0" minHeight="40.0" minWidth="40.0" prefHeight="40.0" prefWidth="40.0" />
+                  <JFXButton fx:id="d6" maxHeight="40.0" maxWidth="40.0" minHeight="40.0" minWidth="40.0" prefHeight="40.0" prefWidth="40.0" />
+                  <JFXButton fx:id="d7" maxHeight="40.0" maxWidth="40.0" minHeight="40.0" minWidth="40.0" prefHeight="40.0" prefWidth="40.0" />
+                  <JFXButton fx:id="d8" maxHeight="40.0" maxWidth="40.0" minHeight="40.0" minWidth="40.0" prefHeight="40.0" prefWidth="40.0" />
+                  <JFXButton fx:id="d9" maxHeight="40.0" maxWidth="40.0" minHeight="40.0" minWidth="40.0" prefHeight="40.0" prefWidth="40.0" />
+            </HBox>
+      </VBox>
+      <ImageView fx:id="movieView" fitHeight="300.0" fitWidth="200.0" layoutX="508.0" layoutY="105.0" pickOnBounds="true" preserveRatio="true" AnchorPane.rightAnchor="31.0" />
+      <HBox alignment="CENTER" layoutX="31.0" layoutY="105.0" prefHeight="47.0" prefWidth="481.0" style="-fx-background-color: white; -fx-border-color: #a69fe0; -fx-border-width: 2;">
+            <Text fill="#a69fe0" strokeType="OUTSIDE" strokeWidth="0.0" text="SCREEN">
+               <font>
+                  <Font name="System Italic" size="15.0" />
+               </font>
+            </Text>
+      </HBox>
+      <Text fx:id="movieText" fill="#6c5ce7" layoutX="529.0" layoutY="426.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Text">
+         <font>
+            <Font name="System Bold" size="13.0" />
+         </font>
+      </Text>
+      <JFXButton fx:id="reserveButton" layoutX="139.0" layoutY="490.0" onAction="#reserve" prefHeight="47.0" prefWidth="482.0" ripplerFill="WHITE" styleClass="ticketBtn" stylesheets="file:styles.css" text="I WANT TO RESERVE THESE SEATS" textFill="WHITE">
+         <font>
+            <Font name="System Bold" size="15.0" />
+         </font>
+      </JFXButton>
+      <Text fx:id="chosenSeats" fill="#6c5ce7" layoutX="398.0" layoutY="427.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Chosen seats:">
+         <font>
+            <Font name="System Bold" size="16.0" />
+         </font>
+      </Text>
+      <Text fx:id="price" fill="#6c5ce7" layoutX="29.0" layoutY="428.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Price: ">
+         <font>
+            <Font name="System Bold" size="16.0" />
+         </font>
+      </Text>
+      <Text fx:id="dateText" fill="#6c5ce7" layoutX="621.0" layoutY="425.0" strokeType="OUTSIDE" strokeWidth="0.0" text="18:50 11/11/2015" AnchorPane.rightAnchor="30.6328125">
+         <font>
+            <Font name="System Bold" size="13.0" />
+         </font>
+      </Text>
+      <Text fill="#6c5ce7" layoutX="31.0" layoutY="463.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Free seats:" AnchorPane.bottomAnchor="77.0">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Text>
+      <Text fill="#6c5ce7" layoutX="115.0" layoutY="468.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Taken seats:" AnchorPane.bottomAnchor="77.0" AnchorPane.rightAnchor="560.0">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Text>
+      <Text fx:id="chosenSeats111" fill="#6c5ce7" layoutX="220.0" layoutY="469.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Chosen seats:" AnchorPane.bottomAnchor="77.0" AnchorPane.rightAnchor="446.0">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Text>
+      <ImageView fx:id="set1" fitHeight="15.0" fitWidth="15.0" layoutX="95.0" layoutY="456.0" pickOnBounds="true" preserveRatio="true" AnchorPane.bottomAnchor="79.0" AnchorPane.rightAnchor="645.0" />
+      <ImageView fx:id="set2" fitHeight="15.0" fitWidth="15.0" layoutX="200.0" layoutY="456.0" pickOnBounds="true" preserveRatio="true" AnchorPane.bottomAnchor="79.0" AnchorPane.rightAnchor="540.0" />
+      <ImageView fx:id="set3" fitHeight="15.0" fitWidth="15.0" layoutX="314.0" layoutY="456.0" pickOnBounds="true" preserveRatio="true" AnchorPane.bottomAnchor="79.0" AnchorPane.rightAnchor="426.0" />
+</AnchorPane>
